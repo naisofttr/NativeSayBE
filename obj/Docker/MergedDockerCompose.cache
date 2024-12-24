@@ -1,0 +1,23 @@
+name: dockercompose359056240296350846
+services:
+  web.api:
+    build:
+      context: C:\Users\ali.tas\Documents\GitHub\TurkcesiNeB
+      dockerfile: src/starterProject/WebAPI/Dockerfile
+    container_name: web-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:BaseDb: Server=mssql-189373-0.cloudclusters.net,10074; Database=TurkcesiNe;User Id=brewcloud;Password=123654Bc!
+      PORT: "80"
+    image: web-api_image
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+    restart: on-failure
+networks:
+  default:
+    name: dockercompose359056240296350846_default

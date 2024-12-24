@@ -1,0 +1,792 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\tests\\starterproject.application.tests\\mocks\\fakedatas\\userfakedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|solutionrelative:tests\\starterproject.application.tests\\mocks\\fakedatas\\userfakedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\tests\\starterproject.application.tests\\features\\users\\queries\\getbyid\\getbyidbrandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|solutionrelative:tests\\starterproject.application.tests\\features\\users\\queries\\getbyid\\getbyidbrandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\tests\\starterproject.application.tests\\features\\users\\commands\\create\\createusertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|solutionrelative:tests\\starterproject.application.tests\\features\\users\\commands\\create\\createusertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\tests\\starterproject.application.tests\\features\\auth\\commands\\login\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|solutionrelative:tests\\starterproject.application.tests\\features\\auth\\commands\\login\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\persistence\\migrations\\20241129113115_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|solutionrelative:src\\starterproject\\persistence\\migrations\\20241129113115_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\persistence\\migrations\\basedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|solutionrelative:src\\starterproject\\persistence\\migrations\\basedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\persistence\\migrations\\20241129113115_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|solutionrelative:src\\starterproject\\persistence\\migrations\\20241129113115_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\services\\authenticatorservice\\authenticatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\services\\authenticatorservice\\authenticatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\tests\\starterproject.application.tests\\mocks\\fakedatas\\refreshtokenfakedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|solutionrelative:tests\\starterproject.application.tests\\mocks\\fakedatas\\refreshtokenfakedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\operationclaims\\commands\\update\\updatedoperationclaimresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\operationclaims\\commands\\update\\updatedoperationclaimresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\operationclaims\\commands\\delete\\deleteoperationclaimcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\operationclaims\\commands\\delete\\deleteoperationclaimcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\operationclaims\\commands\\delete\\deletedoperationclaimresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\operationclaims\\commands\\delete\\deletedoperationclaimresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\operationclaims\\commands\\create\\createoperationclaimcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\operationclaims\\commands\\create\\createoperationclaimcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\operationclaims\\commands\\create\\createdoperationclaimresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\operationclaims\\commands\\create\\createdoperationclaimresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\rules\\authbusinessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\rules\\authbusinessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\profiles\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\profiles\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\verifyotpauthenticator\\verifyotpauthenticatorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\verifyotpauthenticator\\verifyotpauthenticatorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\revoketoken\\revoketokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\revoketoken\\revoketokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\revoketoken\\revokedtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\revoketoken\\revokedtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\register\\registeredresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\register\\registeredresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\refreshtoken\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\refreshtoken\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\refreshtoken\\refreshedtokensresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\refreshtoken\\refreshedtokensresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\login\\loggedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\login\\loggedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\services\\repositories\\iotpauthenticatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\services\\repositories\\iotpauthenticatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\enableotpauthenticator\\enableotpauthenticatorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\enableotpauthenticator\\enableotpauthenticatorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\enableotpauthenticator\\enabledotpauthenticatorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\enableotpauthenticator\\enabledotpauthenticatorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\domain\\entities\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|solutionrelative:src\\starterproject\\domain\\entities\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2D6EA0-0701-49EE-B0DF-54FFF6590011}|src\\corePackages\\Core.Application\\Core.Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\corepackages\\core.application\\core.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF2D6EA0-0701-49EE-B0DF-54FFF6590011}|src\\corePackages\\Core.Application\\Core.Application.csproj|solutionrelative:src\\corepackages\\core.application\\core.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\tests\\starterproject.application.tests\\starterproject.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A06975C0-631D-4E8B-8106-D1C8E3A05D19}|tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj|solutionrelative:tests\\starterproject.application.tests\\starterproject.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8587D7E2-7A17-4731-83D2-CBFDA2C4A0E1}|src\\starterProject\\Persistence\\Persistence.csproj|solutionrelative:src\\starterproject\\persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C5789-75A7-4773-AB44-13721819502A}|src\\starterProject\\WebAPI\\WebAPI.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A5C5789-75A7-4773-AB44-13721819502A}|src\\starterProject\\WebAPI\\WebAPI.csproj|solutionrelative:src\\starterproject\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\domain\\entities\\otpauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|solutionrelative:src\\starterproject\\domain\\entities\\otpauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\application\\features\\auth\\commands\\enableemailauthenticator\\enableemailauthenticatorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DB48DE-CBB4-4BA4-982A-8A564016BBA1}|src\\starterProject\\Application\\Application.csproj|solutionrelative:src\\starterproject\\application\\features\\auth\\commands\\enableemailauthenticator\\enableemailauthenticatorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|solutionrelative:src\\starterproject\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\domain\\entities\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|solutionrelative:src\\starterproject\\domain\\entities\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\domain\\entities\\emailauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|solutionrelative:src\\starterproject\\domain\\entities\\emailauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8696C5CF-50A9-41A3-848F-414D39A8FB21}|src\\starterProject\\Infrastructure\\Infrastructure.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8696C5CF-50A9-41A3-848F-414D39A8FB21}|src\\starterProject\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\starterproject\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9936CABE-B569-474D-9173-2DFFF3957900}|src\\corePackages\\Core.Security\\Core.Security.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\corepackages\\core.security\\entities\\emailauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9936CABE-B569-474D-9173-2DFFF3957900}|src\\corePackages\\Core.Security\\Core.Security.csproj|solutionrelative:src\\corepackages\\core.security\\entities\\emailauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AC68273-3585-48B8-B9C0-6BEBF40D5CEB}|src\\starterProject\\Domain\\Domain.csproj|solutionrelative:src\\starterproject\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C5789-75A7-4773-AB44-13721819502A}|src\\starterProject\\WebAPI\\WebAPI.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\webapi\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A5C5789-75A7-4773-AB44-13721819502A}|src\\starterProject\\WebAPI\\WebAPI.csproj|solutionrelative:src\\starterproject\\webapi\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C5789-75A7-4773-AB44-13721819502A}|src\\starterProject\\WebAPI\\WebAPI.csproj|c:\\users\\ali.tas\\documents\\github\\turkcesineb\\src\\starterproject\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A5C5789-75A7-4773-AB44-13721819502A}|src\\starterProject\\WebAPI\\WebAPI.csproj|solutionrelative:src\\starterproject\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserFakeData.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\UserFakeData.cs",
+              "RelativeDocumentMoniker": "tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\UserFakeData.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\UserFakeData.cs",
+              "RelativeToolTip": "tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\UserFakeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:04:36.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetByIdBrandTests.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Features\\Users\\Queries\\GetById\\GetByIdBrandTests.cs",
+              "RelativeDocumentMoniker": "tests\\StarterProject.Application.Tests\\Features\\Users\\Queries\\GetById\\GetByIdBrandTests.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Features\\Users\\Queries\\GetById\\GetByIdBrandTests.cs",
+              "RelativeToolTip": "tests\\StarterProject.Application.Tests\\Features\\Users\\Queries\\GetById\\GetByIdBrandTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:04:31.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserTests.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Features\\Users\\Commands\\Create\\CreateUserTests.cs",
+              "RelativeDocumentMoniker": "tests\\StarterProject.Application.Tests\\Features\\Users\\Commands\\Create\\CreateUserTests.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Features\\Users\\Commands\\Create\\CreateUserTests.cs",
+              "RelativeToolTip": "tests\\StarterProject.Application.Tests\\Features\\Users\\Commands\\Create\\CreateUserTests.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwEUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:04:20.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginTests.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Features\\Auth\\Commands\\Login\\LoginTests.cs",
+              "RelativeDocumentMoniker": "tests\\StarterProject.Application.Tests\\Features\\Auth\\Commands\\Login\\LoginTests.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Features\\Auth\\Commands\\Login\\LoginTests.cs",
+              "RelativeToolTip": "tests\\StarterProject.Application.Tests\\Features\\Auth\\Commands\\Login\\LoginTests.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwGUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:03:29.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Migrations\\BaseDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Persistence\\Migrations\\BaseDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Migrations\\BaseDbContextModelSnapshot.cs",
+              "RelativeToolTip": "src\\starterProject\\Persistence\\Migrations\\BaseDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAmwHwBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:03:24.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241129113115_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.Designer.cs",
+              "RelativeToolTip": "src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAmwH8BAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:02:45.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241129113115_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.cs",
+              "RelativeToolTip": "src\\starterProject\\Persistence\\Migrations\\20241129113115_InitialCreate.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAmwLgAAAC0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:02:11.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthenticatorManager.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Services\\AuthenticatorService\\AuthenticatorManager.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Services\\AuthenticatorService\\AuthenticatorManager.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Services\\AuthenticatorService\\AuthenticatorManager.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Services\\AuthenticatorService\\AuthenticatorManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwF8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:01:37.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefreshTokenFakeData.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\RefreshTokenFakeData.cs",
+              "RelativeDocumentMoniker": "tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\RefreshTokenFakeData.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\RefreshTokenFakeData.cs",
+              "RelativeToolTip": "tests\\StarterProject.Application.Tests\\Mocks\\FakeDatas\\RefreshTokenFakeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:00:41.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdatedOperationClaimResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Update\\UpdatedOperationClaimResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Update\\UpdatedOperationClaimResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Update\\UpdatedOperationClaimResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Update\\UpdatedOperationClaimResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:00:28.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteOperationClaimCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeleteOperationClaimCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeleteOperationClaimCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeleteOperationClaimCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeleteOperationClaimCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:00:21.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeletedOperationClaimResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeletedOperationClaimResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeletedOperationClaimResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeletedOperationClaimResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Delete\\DeletedOperationClaimResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:00:15.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateOperationClaimCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreateOperationClaimCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreateOperationClaimCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreateOperationClaimCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreateOperationClaimCommand.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA8wAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:00:02.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreatedOperationClaimResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreatedOperationClaimResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreatedOperationClaimResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreatedOperationClaimResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\OperationClaims\\Commands\\Create\\CreatedOperationClaimResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:59:54.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthBusinessRules.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Rules\\AuthBusinessRules.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Rules\\AuthBusinessRules.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Rules\\AuthBusinessRules.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Rules\\AuthBusinessRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:58:12.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Profiles\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Profiles\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Profiles\\MappingProfiles.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Profiles\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:58:00.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VerifyOtpAuthenticatorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\VerifyOtpAuthenticator\\VerifyOtpAuthenticatorCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\VerifyOtpAuthenticator\\VerifyOtpAuthenticatorCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\VerifyOtpAuthenticator\\VerifyOtpAuthenticatorCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\VerifyOtpAuthenticator\\VerifyOtpAuthenticatorCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:57:49.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RevokeTokenCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokeTokenCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokeTokenCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokeTokenCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokeTokenCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:57:37.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RevokedTokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokedTokenResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokedTokenResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokedTokenResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RevokeToken\\RevokedTokenResponse.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:57:30.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisteredResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisteredResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisteredResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisteredResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisteredResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:57:09.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:56:50.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RefreshTokenCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshTokenCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshTokenCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshTokenCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshTokenCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:56:44.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RefreshedTokensResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshedTokensResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshedTokensResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshedTokensResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\RefreshToken\\RefreshedTokensResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:56:28.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:55:44.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoggedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoggedResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoggedResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoggedResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\Login\\LoggedResponse.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:55:12.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IOtpAuthenticatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Services\\Repositories\\IOtpAuthenticatorRepository.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Services\\Repositories\\IOtpAuthenticatorRepository.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Services\\Repositories\\IOtpAuthenticatorRepository.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Services\\Repositories\\IOtpAuthenticatorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:54:44.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj",
+              "RelativeToolTip": "src\\starterProject\\Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T02:47:07.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EnableOtpAuthenticatorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnableOtpAuthenticatorCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnableOtpAuthenticatorCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnableOtpAuthenticatorCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnableOtpAuthenticatorCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:53:42.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EnabledOtpAuthenticatorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnabledOtpAuthenticatorResponse.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnabledOtpAuthenticatorResponse.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnabledOtpAuthenticatorResponse.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableOtpAuthenticator\\EnabledOtpAuthenticatorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:52:26.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\OperationClaim.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Domain\\Entities\\OperationClaim.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\OperationClaim.cs",
+              "RelativeToolTip": "src\\starterProject\\Domain\\Entities\\OperationClaim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:42:18.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OtpAuthenticator.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\OtpAuthenticator.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Domain\\Entities\\OtpAuthenticator.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\OtpAuthenticator.cs",
+              "RelativeToolTip": "src\\starterProject\\Domain\\Entities\\OtpAuthenticator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:38:51.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "src\\starterProject\\Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:42:37.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EnableEmailAuthenticatorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableEmailAuthenticator\\EnableEmailAuthenticatorCommand.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableEmailAuthenticator\\EnableEmailAuthenticatorCommand.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableEmailAuthenticator\\EnableEmailAuthenticatorCommand.cs",
+              "RelativeToolTip": "src\\starterProject\\Application\\Features\\Auth\\Commands\\EnableEmailAuthenticator\\EnableEmailAuthenticatorCommand.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswE4AAACeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:07:10.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserOperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\UserOperationClaim.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Domain\\Entities\\UserOperationClaim.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\UserOperationClaim.cs",
+              "RelativeToolTip": "src\\starterProject\\Domain\\Entities\\UserOperationClaim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:38:58.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "src\\starterProject\\WebAPI\\WebAPI.csproj",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "src\\starterProject\\WebAPI\\WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T02:58:52.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Persistence.csproj",
+              "RelativeDocumentMoniker": "src\\starterProject\\Persistence\\Persistence.csproj",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Persistence.csproj",
+              "RelativeToolTip": "src\\starterProject\\Persistence\\Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T03:04:27.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StarterProject.Application.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
+              "RelativeToolTip": "tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T03:40:37.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Core.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+              "RelativeDocumentMoniker": "src\\corePackages\\Core.Application\\Core.Application.csproj",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+              "RelativeToolTip": "src\\corePackages\\Core.Application\\Core.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T03:35:57.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EmailAuthenticator.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\EmailAuthenticator.cs",
+              "RelativeDocumentMoniker": "src\\starterProject\\Domain\\Entities\\EmailAuthenticator.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Entities\\EmailAuthenticator.cs",
+              "RelativeToolTip": "src\\starterProject\\Domain\\Entities\\EmailAuthenticator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:36:24.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmailAuthenticator.cs",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\corePackages\\Core.Security\\Entities\\EmailAuthenticator.cs",
+              "RelativeDocumentMoniker": "src\\corePackages\\Core.Security\\Entities\\EmailAuthenticator.cs",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\corePackages\\Core.Security\\Entities\\EmailAuthenticator.cs",
+              "RelativeToolTip": "src\\corePackages\\Core.Security\\Entities\\EmailAuthenticator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:37:20.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\starterProject\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "src\\starterProject\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T03:39:41.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "src\\starterProject\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj",
+              "RelativeToolTip": "src\\starterProject\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T03:08:22.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.Staging.json",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\appsettings.Staging.json",
+              "RelativeDocumentMoniker": "src\\starterProject\\WebAPI\\appsettings.Staging.json",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\appsettings.Staging.json",
+              "RelativeToolTip": "src\\starterProject\\WebAPI\\appsettings.Staging.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAABRwCQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T02:57:50.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\starterProject\\WebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "src\\starterProject\\WebAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T02:55:30.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
