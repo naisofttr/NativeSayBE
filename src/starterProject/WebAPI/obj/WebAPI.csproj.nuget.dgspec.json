@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj": {
+    "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ali.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,16 +27,17 @@
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj"
+              "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -49,9 +50,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -121,6 +121,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.101, 9.0.101]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -130,22 +136,22 @@
         }
       }
     },
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj": {
+    "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ali.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -153,8 +159,9 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -171,9 +178,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -203,6 +209,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.101, 9.0.101]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -212,22 +236,22 @@
         }
       }
     },
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ali.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -235,16 +259,17 @@
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj"
+              "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj"
               }
             }
           }
@@ -257,9 +282,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -281,6 +305,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.101, 9.0.101]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -290,22 +320,22 @@
         }
       }
     },
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ali.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -313,16 +343,17 @@
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj"
+              "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj"
               }
             }
           }
@@ -335,9 +366,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -389,6 +419,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.101, 9.0.101]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -398,22 +434,22 @@
         }
       }
     },
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ali.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -421,22 +457,23 @@
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj"
+              "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj"
               },
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -449,9 +486,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -527,6 +563,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.101, 9.0.101]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
