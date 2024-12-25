@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StarterProject.Application.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7525c17d9b1f3254dc3a1bfdea03e6be58d2f383")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ecef05c793f52a4b57201fa48a59e6a82f82f86")]
 [assembly: System.Reflection.AssemblyProductAttribute("StarterProject.Application.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StarterProject.Application.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
