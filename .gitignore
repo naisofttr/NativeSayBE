@@ -135,3 +135,4 @@ src/starterProject/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
 /.vs/NArchitecture/DesignTimeBuild
 /src/starterProject/Domain/obj/Debug/net8.0
 /.vs/NArchitecture/DesignTimeBuild
+src/starterProject/Application/Features/Promt/Queries/GetPromtQuery.cs
