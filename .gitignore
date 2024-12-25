@@ -159,3 +159,4 @@ src/starterProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
 obj/Docker/ContainerToolsExceptions.json
 /src/starterProject/Domain/obj/Debug/net8.0
 *.cache
+obj/Docker/ContainerToolsExceptions.json
