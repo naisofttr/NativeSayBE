@@ -161,3 +161,4 @@ obj/Docker/ContainerToolsExceptions.json
 *.cache
 obj/Docker/ContainerToolsExceptions.json
 obj/Docker/ContainerToolsExceptions.json
+src/starterProject/WebAPI/appsettings.Development.json
