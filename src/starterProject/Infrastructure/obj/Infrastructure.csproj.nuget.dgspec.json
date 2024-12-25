@@ -268,6 +268,14 @@
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.26.2, )"
+            },
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.68.0, )"
             }
           },
           "imports": [

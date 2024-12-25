@@ -1,6 +1,7 @@
 ﻿using Application;
 using Application.Features.Auth.Commands.Login;
 using Application.Services.AuthService;
+using Application.Services.GoogleAuthService;
 using Application.Services.Helper;
 using Infrastructure;
 using Microsoft.AspNetCore.Authentication;
@@ -53,6 +54,10 @@ builder.Services.AddInfrastructureServices();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<GoogleAuthService>();
 builder.Services.AddScoped<IAppleSignInService, AppleSignInHelper>();
+
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<IGoogleOAuthService, GoogleOAuthService>();
+builder.Services.AddScoped<GoogleOAuthService>();
 
 // Token options configuration
 const string tokenOptionsConfigurationSection = "TokenOptions";

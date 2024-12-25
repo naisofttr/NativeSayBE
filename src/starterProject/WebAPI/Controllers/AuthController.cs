@@ -8,7 +8,9 @@ using Application.Features.Auth.Commands.RevokeToken;
 using Application.Features.Auth.Commands.VerifyEmailAuthenticator;
 using Application.Features.Auth.Commands.VerifyOtpAuthenticator;
 using Application.Services.AuthService;
+using Application.Services.GoogleAuthService;
 using Domain.Entities;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -23,7 +25,8 @@ public class AuthController : BaseController
     private readonly WebApiConfiguration _configuration;
     private readonly GoogleAuthService _googleAuthService;
     private readonly IAppleSignInService _appleSignInService;
-    public AuthController(IConfiguration configuration, GoogleAuthService googleAuthService, IAppleSignInService appleSignInService)
+    private readonly GoogleOAuthService _authenticationService;
+    public AuthController(IConfiguration configuration, GoogleAuthService googleAuthService, IAppleSignInService appleSignInService, GoogleOAuthService authenticationService)
     {
         const string configurationSection = "WebAPIConfiguration";
         _configuration =
@@ -31,6 +34,7 @@ public class AuthController : BaseController
             ?? throw new NullReferenceException($"\"{configurationSection}\" section cannot found in configuration.");
         _googleAuthService = googleAuthService;
         _appleSignInService = appleSignInService;
+        _authenticationService = authenticationService;
     }
 
     [HttpPost("Login")]
@@ -158,6 +162,22 @@ public class AuthController : BaseController
 
         var clientSecret = _appleSignInService.GenerateClientSecret(request);
         return Ok(new { clientSecret });
+    }
+
+    [HttpPost("GoogleAuthenticate")]
+    [AllowAnonymous]
+    public async Task<IActionResult> Authenticate([FromBody] string authorizationCode)
+    {
+        var tokens = await _authenticationService.GetTokensAsync(authorizationCode);
+        return Ok(tokens);
+    }
+
+    [HttpPost("RefreshGoogleToken")]
+    [AllowAnonymous]
+    public async Task<IActionResult> Refresh([FromBody] string refreshToken)
+    {
+        var accessToken = await _authenticationService.RefreshAccessTokenAsync(refreshToken);
+        return Ok(new { AccessToken = accessToken });
     }
 
 }
