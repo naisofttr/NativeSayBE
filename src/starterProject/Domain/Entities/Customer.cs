@@ -1,7 +1,7 @@
 ﻿
 namespace Domain.Entities;
 
-public class Customer : EntityDateBase
+public class Customer : EntityRecIdBase
 {
 
     public string IdToken { get; set; }
