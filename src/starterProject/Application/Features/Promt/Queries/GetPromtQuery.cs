@@ -41,7 +41,6 @@ public class GetPromtQuery : IRequest<RestResponse>
             // İstek gönderme ve yanıt alma
             var response = await client.ExecuteAsync(restRequest);
 
-
             if (response.IsSuccessful)
             {
                 Console.WriteLine("Response:");
