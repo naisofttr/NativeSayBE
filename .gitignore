@@ -130,3 +130,5 @@ src/starterProject/WebAPI/obj/project.nuget.cache
 src/starterProject/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json
 src/starterProject/WebAPI/obj/WebAPI.csproj.nuget.g.props
 src/starterProject/WebAPI/WebAPI.csproj.user
+src/starterProject/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
+/.vs/NArchitecture/FileContentIndex

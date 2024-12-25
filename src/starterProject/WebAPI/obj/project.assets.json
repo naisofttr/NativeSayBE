@@ -9889,26 +9889,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Akif\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Users\\ali.tas\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Users\\ali.tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9916,23 +9916,22 @@
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj"
+            "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj"
             },
-            "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Akif\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj"
+            "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -9945,8 +9944,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      }
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -10022,12 +10022,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.101, 9.0.101]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10039,47 +10033,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle.Cryptography' 2.3.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv",
-      "libraryId": "BouncyCastle.Cryptography",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle.Cryptography' 2.3.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m44j-cfrm-g8qc",
-      "libraryId": "BouncyCastle.Cryptography",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle.Cryptography' 2.3.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v435-xc8x-wvr9",
-      "libraryId": "BouncyCastle.Cryptography",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MimeKit' 4.4.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
-      "libraryId": "MimeKit",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
