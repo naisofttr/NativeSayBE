@@ -5,7 +5,7 @@ services:
         restart: on-failure
         environment:
             - ASPNETCORE_ENVIRONMENT=Development
-            - ConnectionStrings:BaseDb=Server=mssql-189373-0.cloudclusters.net,10074; Database=TurkcesiNe;User Id=brewcloud;Password=123654Bc!
+            - ConnectionStrings:BaseDb=Server=mssql-189621-0.cloudclusters.net,10079; Database=TurkcesiNe;User Id=brewcloud;Password=123654Bc!
             - PORT=80   
         ports:
             - 80:80
