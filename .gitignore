@@ -160,3 +160,4 @@ obj/Docker/ContainerToolsExceptions.json
 /src/starterProject/Domain/obj/Debug/net8.0
 *.cache
 obj/Docker/ContainerToolsExceptions.json
+obj/Docker/ContainerToolsExceptions.json
