@@ -4,7 +4,7 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>WebAPI.Console.Development</ActiveDebugProfile>
+    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
     <NameOfLastUsedPublishProfile>registry.hub.docker.com_nAISoftTr</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

@@ -139,3 +139,9 @@ src/starterProject/Application/Features/Promt/Queries/GetPromtQuery.cs
 .vs/NArchitecture/DesignTimeBuild/.dtbcache.v2
 src/starterProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
 .vs/NArchitecture/v17/.suo
+.vs/NArchitecture/config/applicationhost.config
+*.dll
+*.pdb
+src/starterProject/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
+*.cache
+src/starterProject/Application/obj/Debug/net9.0/Application.csproj.FileListAbsolute.txt

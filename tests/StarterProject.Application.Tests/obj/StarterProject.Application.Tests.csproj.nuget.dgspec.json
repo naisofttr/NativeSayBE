@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj": {}
+    "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj": {
+    "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\obj\\",
+        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -35,8 +35,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj"
+              "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -49,8 +49,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -120,12 +121,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.101, 9.0.101]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -135,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj": {
+    "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -176,13 +171,18 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "NArchitecture.Core.Persistence": {
               "target": "Package",
               "version": "[1.1.4, )"
@@ -203,12 +203,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.101, 9.0.101]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -218,14 +212,14 @@
         }
       }
     },
-    "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj": {
+    "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
         "projectName": "StarterProject.Application.Tests",
-        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
+        "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\tests\\StarterProject.Application.Tests\\StarterProject.Application.Tests.csproj",
         "packagesPath": "C:\\Users\\ali.tas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\tests\\StarterProject.Application.Tests\\obj\\",
+        "outputPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\tests\\StarterProject.Application.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -249,8 +243,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\TurkcesiNeB\\src\\starterProject\\Application\\Application.csproj"
+              "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\ali.tas\\Documents\\GitHub\\NativeSayBE\\src\\starterProject\\Application\\Application.csproj"
               }
             }
           }
@@ -263,8 +257,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -272,7 +267,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -318,12 +313,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.101, 9.0.101]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
