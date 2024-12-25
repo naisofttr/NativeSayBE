@@ -145,3 +145,8 @@ src/starterProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
 src/starterProject/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
 *.cache
 src/starterProject/Application/obj/Debug/net9.0/Application.csproj.FileListAbsolute.txt
+src/starterProject/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs
+*.cache
+src/starterProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+obj/Docker/ContainerToolsExceptions.json
+*.v2
