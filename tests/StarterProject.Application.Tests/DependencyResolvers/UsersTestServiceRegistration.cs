@@ -1,4 +1,5 @@
-﻿using Application.Features.Users.Commands.Create;
+﻿using Application.Features.Customers.Commands;
+using Application.Features.Users.Commands.Create;
 using Application.Features.Users.Commands.Delete;
 using Application.Features.Users.Commands.Update;
 using Application.Features.Users.Queries.GetById;
@@ -20,5 +21,7 @@ public static class UsersTestServiceRegistration
         services.AddTransient<GetListUserQuery>();
         services.AddSingleton<CreateUserCommandValidator>();
         services.AddSingleton<UpdateUserCommandValidator>();
+
+        services.AddTransient<CreateCustomerCommand>();
     }
 }

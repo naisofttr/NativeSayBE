@@ -178,6 +178,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI.Controllers.CustomerController",
+    "Method": "Add",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCustomerCommand",
+        "Type": "Application.Features.Customers.Commands.CreateCustomerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.OperationClaimsController",
     "Method": "GetList",
     "RelativePath": "api/OperationClaims",

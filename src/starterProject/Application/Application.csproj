@@ -23,8 +23,8 @@
     <PackageReference Include="RestSharp" Version="112.1.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Features\Customers\Queries\" />
     <Folder Include="Features\Promt\Commands\" />
-    <Folder Include="Services\Repositories" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Features\**\Resources\Locales\*.*.yaml">
