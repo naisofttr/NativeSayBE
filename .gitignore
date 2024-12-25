@@ -133,3 +133,4 @@ src/starterProject/WebAPI/WebAPI.csproj.user
 src/starterProject/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
 /.vs/NArchitecture/FileContentIndex
 /.vs/NArchitecture/DesignTimeBuild
+/src/starterProject/Domain/obj/Debug/net8.0

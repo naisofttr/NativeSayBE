@@ -51,7 +51,6 @@ public class GetPromtQuery : IRequest<RestResponse>
                 Console.WriteLine("Error Message:");
                 Console.WriteLine(response.Content); // Burada "insufficient_quota" hatasını alırsanız kullanım limitiniz bitmiştir.
             }
-
             return response;
         }
     }
