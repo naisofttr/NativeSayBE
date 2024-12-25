@@ -150,3 +150,7 @@ src/starterProject/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs
 src/starterProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
 obj/Docker/ContainerToolsExceptions.json
 *.v2
+obj/Docker/ContainerToolsExceptions.json
+src/starterProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+src/starterProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+obj/Docker/ContainerToolsExceptions.json
