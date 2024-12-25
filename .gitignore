@@ -461,3 +461,4 @@ src/starterProject/WebAPI/appsettings.Development.json
 /tests/StarterProject.Application.Tests/obj/Debug/net9.0/StarterProject.Application.Tests.sourcelink.json
 /obj/Docker/ContainerToolsExceptions.json
 /obj/Docker/PrerequisiteFailureTelemetry.json
+/src/starterProject/WebAPI/appsettings.Staging.json
