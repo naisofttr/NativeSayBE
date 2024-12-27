@@ -13,6 +13,7 @@ public class CustomerConfig : IEntityTypeConfiguration<Customer>
         entity.Property(e => e.RecId)
             .ValueGeneratedOnAdd()
             .IsRequired()
-            .HasColumnName("Recid");
+            .HasColumnName("Recid")
+            .UseIdentityColumn(1000, 1);
     }
 }
