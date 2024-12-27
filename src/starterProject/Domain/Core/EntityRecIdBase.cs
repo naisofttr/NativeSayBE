@@ -3,8 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 public class EntityRecIdBase : Entity<Guid>
 {
-    [Key]
-    public Guid RecId { get; set; }
+    public int RecId { get; set; }
 
     public bool Deleted { get; set; } = false;
 }

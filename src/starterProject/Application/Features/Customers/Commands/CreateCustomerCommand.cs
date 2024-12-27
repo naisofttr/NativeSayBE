@@ -1,10 +1,7 @@
-﻿using Application.Features.Users.Constants;
-using Application.Features.Users.Rules;
-using Application.Services.Repositories;
+﻿using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using MediatR;
-using NArchitecture.Core.Application.Pipelines.Authorization;
 namespace Application.Features.Customers.Commands;
 public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>/*, ISecuredRequest*/
 {
@@ -46,6 +43,7 @@ public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>/*, ISecur
         public async Task<CreatedCustomerResponse> Handle(CreateCustomerCommand request, CancellationToken cancellationToken)
         {
             //await _userBusinessRules.UserEmailShouldNotExistsWhenInsert(request.Email);
+            TimeZoneInfo localTimeZone = TimeZoneInfo.Local;
             Customer customer = _mapper.Map<Customer>(request);
 
             //HashingHelper.CreatePasswordHash(
@@ -57,6 +55,8 @@ public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>/*, ISecur
             customer.Email = request.Email;
             customer.Name = request.Name;
             customer.ProfilePhotoUrl = request.ProfilePhotoUrl;
+            customer.CreatedDate = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, localTimeZone);
+
             Customer createdCustomer = await _customerRepository.AddAsync(customer);
 
             CreatedCustomerResponse response = _mapper.Map<CreatedCustomerResponse>(createdCustomer);

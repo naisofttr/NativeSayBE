@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistence.Contexts;
 
@@ -11,9 +12,11 @@ using Persistence.Contexts;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    partial class BaseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241227082235_customer update")]
+    partial class customerupdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -53,13 +56,6 @@ namespace Persistence.Migrations
                     b.Property<string>("ProfilePhotoUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("RecId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("Recid");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RecId"));
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
@@ -422,12 +418,12 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("10e4bfd4-410d-494c-96c3-989a2cf49d7f"),
+                            Id = new Guid("48f03c0e-1f8e-4881-a809-c8710cf3fc15"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "narch@tr",
-                            PasswordHash = new byte[] { 218, 242, 93, 42, 103, 201, 169, 224, 199, 94, 248, 67, 97, 227, 184, 82, 247, 107, 169, 217, 208, 87, 82, 181, 115, 83, 150, 188, 34, 99, 17, 222, 41, 10, 86, 207, 143, 207, 232, 156, 178, 188, 49, 189, 51, 163, 185, 238, 31, 216, 2, 90, 77, 118, 123, 137, 237, 152, 118, 59, 77, 189, 8, 119 },
-                            PasswordSalt = new byte[] { 175, 255, 43, 143, 140, 184, 204, 202, 200, 243, 164, 245, 228, 109, 210, 148, 34, 245, 255, 29, 189, 50, 7, 79, 181, 118, 7, 252, 10, 69, 12, 105, 27, 60, 2, 183, 241, 215, 135, 127, 188, 2, 30, 1, 79, 170, 139, 1, 222, 194, 124, 101, 219, 1, 77, 170, 77, 131, 73, 137, 167, 248, 169, 94, 61, 123, 253, 196, 168, 82, 244, 227, 77, 30, 173, 176, 225, 63, 177, 106, 64, 36, 186, 206, 186, 198, 121, 94, 176, 14, 91, 150, 104, 168, 72, 243, 49, 11, 30, 236, 115, 80, 210, 42, 237, 67, 143, 20, 47, 135, 71, 43, 110, 3, 50, 94, 162, 240, 186, 177, 168, 55, 144, 202, 91, 205, 162, 247 }
+                            PasswordHash = new byte[] { 170, 171, 101, 184, 173, 61, 145, 217, 146, 239, 15, 75, 13, 22, 122, 250, 112, 202, 123, 64, 248, 44, 25, 152, 254, 173, 244, 132, 148, 222, 51, 138, 145, 163, 109, 20, 133, 35, 254, 1, 162, 241, 24, 186, 57, 20, 148, 144, 102, 6, 114, 97, 225, 98, 95, 62, 153, 82, 89, 65, 228, 15, 75, 237 },
+                            PasswordSalt = new byte[] { 185, 166, 26, 231, 48, 71, 199, 146, 166, 239, 229, 48, 138, 98, 46, 242, 142, 104, 119, 239, 208, 23, 137, 241, 33, 173, 5, 63, 179, 248, 245, 176, 129, 254, 208, 105, 164, 186, 195, 160, 105, 44, 94, 223, 93, 150, 239, 74, 175, 128, 154, 218, 106, 20, 216, 9, 49, 108, 58, 202, 235, 85, 39, 140, 29, 103, 82, 174, 58, 212, 37, 134, 214, 27, 156, 181, 31, 6, 215, 250, 37, 245, 255, 243, 11, 202, 195, 185, 138, 242, 172, 72, 182, 248, 89, 101, 5, 55, 147, 240, 117, 195, 231, 31, 220, 156, 45, 124, 159, 119, 140, 59, 236, 47, 17, 132, 116, 139, 123, 247, 45, 157, 167, 68, 248, 144, 131, 246 }
                         });
                 });
 
@@ -469,10 +465,10 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("931d3f77-4a6a-4c34-b079-f137c7b8a7be"),
+                            Id = new Guid("018be9c4-4110-4af4-be63-6447d3defb1a"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             OperationClaimId = 1,
-                            UserId = new Guid("10e4bfd4-410d-494c-96c3-989a2cf49d7f")
+                            UserId = new Guid("48f03c0e-1f8e-4881-a809-c8710cf3fc15")
                         });
                 });
 
