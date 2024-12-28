@@ -9,7 +9,7 @@ namespace WebAPI.Controllers;
 [AllowAnonymous]
 public class CustomerController : BaseController
 {
-    [HttpPost]
+    [HttpPost("CreateCustomer")]
     public async Task<IActionResult> Add([FromBody] CreateCustomerCommand createCustomerCommand)
     {
         CreatedCustomerResponse result = await Mediator.Send(createCustomerCommand);
