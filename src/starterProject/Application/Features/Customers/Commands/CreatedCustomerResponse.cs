@@ -8,6 +8,7 @@ public class CreatedCustomerResponse : IResponse
     public string Email { get; set; }
     public string Name { get; set; }
     public string ProfilePhotoUrl { get; set; }
+    public string ErrorMessage { get; set; }
 
     public CreatedCustomerResponse()
     {
@@ -15,14 +16,16 @@ public class CreatedCustomerResponse : IResponse
         Email = string.Empty;
         Name = string.Empty;
         ProfilePhotoUrl = string.Empty;
+        ErrorMessage = string.Empty;
     }
 
-    public CreatedCustomerResponse(Guid id, string idToken, string email, string name, string profilePhotoUrl)
+    public CreatedCustomerResponse(Guid id, string idToken, string email, string name, string profilePhotoUrl, string errorMessage)
     {
         Id = id;
         IdToken = idToken;
         Email = email;
         Name = name;
         ProfilePhotoUrl = profilePhotoUrl;
+        ErrorMessage = errorMessage;
     }
 }

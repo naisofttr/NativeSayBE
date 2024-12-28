@@ -1,16 +1,16 @@
-﻿using Application.Services.Repositories;
+﻿using Application.Features.Auth.Commands.VerifyGoogleToken;
+using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using MediatR;
 namespace Application.Features.Customers.Commands;
-public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>/*, ISecuredRequest*/
+public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>
 {
     public string IdToken { get; set; }
     public string Email { get; set; }
     public string Name { get; set; }
     public string ProfilePhotoUrl { get; set; }
 
-    //public string[] Roles => new[] { Admin, Write, UsersOperationClaims.Create };
     public CreateCustomerCommand()
     {
         IdToken = string.Empty;
@@ -26,40 +26,44 @@ public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>/*, ISecur
         Name = name;
         ProfilePhotoUrl = profilePhotoUrl;
     }
-
-
     public class CreateCustomerCommandHandler : IRequestHandler<CreateCustomerCommand, CreatedCustomerResponse>
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly IMapper _mapper;
-        //private readonly UserBusinessRules _userBusinessRules;
-        public CreateCustomerCommandHandler(ICustomerRepository customerRepository, IMapper mapper/*, UserBusinessRules userBusinessRules*/)
+        private readonly IMediator _mediator;
+        public CreateCustomerCommandHandler(ICustomerRepository customerRepository, IMapper mapper, IMediator mediator)
         {
             _customerRepository = customerRepository;
             _mapper = mapper;
-            //_userBusinessRules = userBusinessRules;
+            _mediator = mediator;
         }
 
         public async Task<CreatedCustomerResponse> Handle(CreateCustomerCommand request, CancellationToken cancellationToken)
         {
-            //await _userBusinessRules.UserEmailShouldNotExistsWhenInsert(request.Email);
-            TimeZoneInfo localTimeZone = TimeZoneInfo.Local;
-            Customer customer = _mapper.Map<Customer>(request);
+            CreatedCustomerResponse response = new CreatedCustomerResponse();
+            VerifyGoogleTokenCommand verifyGoogleToken = new VerifyGoogleTokenCommand();
 
-            //HashingHelper.CreatePasswordHash(
-            //    request.Password,
-            //    passwordHash: out byte[] passwordHash,
-            //    passwordSalt: out byte[] passwordSalt
-            //);
-            customer.IdToken = request.IdToken;
-            customer.Email = request.Email;
-            customer.Name = request.Name;
-            customer.ProfilePhotoUrl = request.ProfilePhotoUrl;
-            customer.CreatedDate = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, localTimeZone);
+            verifyGoogleToken.IdToken = request.IdToken;
+            var verifyGoogleTokenResponse = _mediator.Send(verifyGoogleToken);
+            if (verifyGoogleTokenResponse.Result.Success)
+            {
+                TimeZoneInfo localTimeZone = TimeZoneInfo.Local;
+                Customer customer = _mapper.Map<Customer>(request);
 
-            Customer createdCustomer = await _customerRepository.AddAsync(customer);
+                customer.IdToken = request.IdToken;
+                customer.Email = request.Email;
+                customer.Name = request.Name;
+                customer.ProfilePhotoUrl = request.ProfilePhotoUrl;
+                customer.CreatedDate = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, localTimeZone);
 
-            CreatedCustomerResponse response = _mapper.Map<CreatedCustomerResponse>(createdCustomer);
+                Customer createdCustomer = await _customerRepository.AddAsync(customer);
+
+                response = _mapper.Map<CreatedCustomerResponse>(createdCustomer);
+            }
+            else
+            {
+                response.ErrorMessage = verifyGoogleTokenResponse.Result.ErrorMessage;
+            }
             return response;
         }
     }
