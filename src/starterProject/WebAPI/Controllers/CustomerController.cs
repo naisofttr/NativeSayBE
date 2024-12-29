@@ -1,4 +1,4 @@
-﻿using Application.Features.Customers.Commands;
+﻿using Application.Features.Customers.Commands.Create;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

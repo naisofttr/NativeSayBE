@@ -1,4 +1,4 @@
-using Application.Features.Customers.Commands;
+using Application.Features.Customers.Commands.Create;
 using Application.Features.Users.Commands.Create;
 using Application.Features.Users.Commands.Delete;
 using Application.Features.Users.Commands.Update;
@@ -27,8 +27,5 @@ public class MappingProfiles : Profile
         CreateMap<User, GetByIdUserResponse>().ReverseMap();
         CreateMap<User, GetListUserListItemDto>().ReverseMap();
         CreateMap<IPaginate<User>, GetListResponse<GetListUserListItemDto>>().ReverseMap();
-
-        CreateMap<Customer, CreateCustomerCommand>().ReverseMap();
-        CreateMap<Customer, CreatedCustomerResponse>().ReverseMap();
     }
 }

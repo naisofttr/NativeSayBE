@@ -24,7 +24,8 @@
     <PackageReference Include="RestSharp" Version="112.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Features\Customers\Queries\" />
+    <Folder Include="Features\Customers\Commands\Delete\" />
+    <Folder Include="Features\Customers\Queries\GetList\" />
     <Folder Include="Features\Promt\Commands\" />
   </ItemGroup>
   <ItemGroup>
