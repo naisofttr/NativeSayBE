@@ -58,8 +58,8 @@ builder.Services.AddScoped<GoogleAuthService>();
 builder.Services.AddScoped<IAppleSignInService, AppleSignInHelper>();
 
 builder.Services.AddHttpClient();
-//builder.Services.AddScoped<IGoogleOAuthService, GoogleOAuthService>();
-//builder.Services.AddScoped<GoogleOAuthService>();
+builder.Services.AddScoped<IGoogleOAuthService, GoogleOAuthService>();
+builder.Services.AddScoped<GoogleOAuthService>();
 
 // Token options configuration
 const string tokenOptionsConfigurationSection = "TokenOptions";
