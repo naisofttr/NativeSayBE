@@ -7,7 +7,6 @@ namespace WebAPI.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-[AllowAnonymous]
 public class PromtController : BaseController
 {
     [HttpGet("{Promt}")]

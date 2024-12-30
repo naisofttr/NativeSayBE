@@ -6,7 +6,7 @@ namespace WebAPI.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-[AllowAnonymous]
+//[AllowAnonymous]
 public class CustomerController : BaseController
 {
     [HttpPost("CreateCustomer")]

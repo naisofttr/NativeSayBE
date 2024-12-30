@@ -87,6 +87,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 builder.Services.AddAuthorization();
+builder.Configuration.AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true);
 // Google Authentication (Oturum Açma)
 builder.Services.AddAuthentication(options =>
 {
@@ -98,6 +99,7 @@ builder.Services.AddAuthentication(options =>
 {
     options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
     options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+    options.CallbackPath = new PathString("/signin-google");
     options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme; // Google oturum açma sonrası çerez ile yönetim
 });
 
