@@ -34,11 +34,10 @@ public class GetPromtQuery : IRequest<PromtResponseDto>
                 model = "gpt-3.5-turbo", // 3.5-turbo veya "gpt-4"
                 messages = new[]
                 {
-                new { role = "system", content = request.LanguageCode + " explanation.Max.50char" },
-                new { role = "user", content = request.Promt }
+                //new { role = "system", content = "Her mesaja verilen Türkçe açıklamayı max.50 karakterle yap." },
+                new { role = "user", content = "In " + request.LanguageCode +" language explanation for the '" + request.Promt +"' ?(max.50char)" }
             },
-                max_tokens = 100
-                ,
+                max_tokens = 100,
                 temperature = 0.7
             };
             restRequest.AddJsonBody(body);
