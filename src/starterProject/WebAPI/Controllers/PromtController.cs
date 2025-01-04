@@ -1,4 +1,5 @@
-﻿using Application.Features.ChatGBT.Queries;
+﻿using Application.Dtos;
+using Application.Features.ChatGBT.Queries;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RestSharp;
@@ -7,12 +8,13 @@ namespace WebAPI.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[AllowAnonymous]
 public class PromtController : BaseController
 {
-    [HttpGet("{Promt}")]
+    [HttpGet("{Promt},{LanguageCode}")]
     public async Task<IActionResult> GetPromt([FromRoute] GetPromtQuery getPromtQuery)
     {
-        RestResponse result = await Mediator.Send(getPromtQuery);
+        PromtResponseDto result = await Mediator.Send(getPromtQuery);
         return Ok(result);
     }
 }
