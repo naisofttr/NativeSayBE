@@ -172,4 +172,4 @@ app.UseCors(opt => opt.WithOrigins(webApiConfiguration.AllowedOrigins).AllowAnyH
 
 app.UseResponseLocalization();
 
-app.Run();
+app.Run("http://0.0.0.0:5278");
